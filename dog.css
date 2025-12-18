@@ -1,0 +1,189 @@
+*{
+     font-family: "Montserrat", sans-serif;
+
+     /*zerar margin, padding e colocar 
+     um box sizing 
+     deve ser feito todo começo de css*/
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+
+header{
+
+     margin: 44px 0px 144px 76px;
+        /*relógio em sentido horário
+            cima,direita,abaixo,esquerda*/   
+}
+
+.link-header{
+
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 23px;
+    cursor: pointer;
+
+}
+
+#Login{
+
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: #665AE1;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+
+}
+
+figure{
+
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+   
+}
+
+.imagem{
+    
+    width: 500px;
+    height: 500px;
+    margin: 0px 0px 0px 50px;
+    
+    
+}
+
+#text{
+    
+    display: inline-block;
+    
+}
+
+h1{
+
+    color: #515151;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+h2{
+
+    color: #515151;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+p{
+
+    color: #848484;
+    width: 515px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+}
+
+#Explore{
+
+    width: 239px;
+    height: 64px;
+    border-radius: 25px;
+    background: #ADFF00;
+    border: none;
+    cursor: pointer;
+
+    
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 70px;
+
+}
+
+
+@media screen and ( max-width: 850px) {
+
+    
+
+    header{
+
+        display: none;
+
+    }
+
+    p{
+
+        display: none;
+
+    }
+
+   figure{
+
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+    
+   }
+
+   #text{
+    margin-top: 20px;
+    position: relative;
+    left: 35%;
+    
+    
+    
+
+   }
+
+   h1{
+
+    font-weight: 800;
+    font-size: 80px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    opacity: 0.8;
+
+   }
+
+   h2{
+
+    font-weight: 400; 
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px ;
+
+   }
+
+   #Explore{
+
+    width: 350px;
+    height: 80px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 650;
+    border-radius: 40px;
+    position: relative;
+    left: 6%;
+
+
+   }
+
+
+ 
+
+   
+
+}
+    
+
+
